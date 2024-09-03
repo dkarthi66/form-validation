@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif ;
+}
+body{
+    background-image:url(wave-haikei.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+nav{
+    width: 100%;
+    position: sticky;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.5);
+    z-index: 10;
+}
+.nav-brand{
+    font-weight: 600;
+}
+.nav-link{
+    color:white !important;
+    border-bottom: 1px solid transparent;
+}
+.nav-link:hover{
+    border-bottom: 1px solid white;
+}
+#form{
+    width:400px;
+    margin:10vh auto 0 auto;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding:30px;
+}
+
+h1{
+    text-align: center;
+    color:#792099;
+}
+
+#form button{
+    background-color: #792099;
+    color:white;
+    border: 1px solid #792099;
+    border-radius: 5px;
+    padding:10px;
+    margin:20px 0px;
+    cursor:pointer;
+    font-size:20px;
+    width:100%;
+}
+
+.input-group{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.input-group input{
+    border-radius: 5px;
+    font-size:20px;
+    margin-top:5px;
+    padding:10px;
+    border:1px solid rgb(34,193,195) ;
+}
+
+.input-group input:focus{
+    outline:0;
+}
+
+.input-group .error{
+    color:rgb(242, 18, 18);
+    font-size:16px;
+    margin-top: 5px;
+}
+
+.input-group.success input{
+    border-color: #0cc477;
+}
+
+.input-group.error input{
+    border-color:rgb(206, 67, 67);
+}
